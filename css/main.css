@@ -86,6 +86,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+   #header-img {
+     position: relative;
+     display: inline-block;
+     margin: 1em;
+     max-width: 14em;
+   }
+
+   #navbar {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+   }
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +276,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
