@@ -91,14 +91,12 @@ header#header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  position: fixed;
   width: 100%;
 }
 
 a img#header-img {
   position: relative;
   flex-direction: column;
-  /* margin: 1em; */
 }
 
 nav#nav-bar {
@@ -107,6 +105,25 @@ nav#nav-bar {
 a.nav-link {
   padding: 0.5em;
   flex-direction: column;
+}
+
+/* Hero */
+.hero {
+  padding: 0 0.5em;
+  display: flex;
+  justify-content: space-around;
+}
+.hero .hero__title {
+  position: absolute;
+  text-align: center;
+  color: #ffffffee;
+  font-size: 3em;
+  margin: 0 auto;
+  align-self: center;
+}
+.hero img.hero__img {
+  max-width: 100%;
+  padding-top: 0.5em;
 }
 
 /* Media queries */
