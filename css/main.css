@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+/* HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -8,7 +8,7 @@
  */
 
 /* ==========================================================================
-   Base styles: opinionated defaults
+Base styles: opinionated defaults
    ========================================================================== */
 
 html {
@@ -86,22 +86,39 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  #header {
-    display: flex;
-    flex-direction: column;
-  }
-   #header-img {
-     position: relative;
-     display: inline-block;
-     margin: 1em;
-     max-width: 14em;
-   }
+/*Header*/
+header#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
 
-   #navbar {
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-end;
-   }
+a img#header-img {
+  position: relative;
+  flex-direction: column;
+  /* margin: 1em; */
+}
+
+nav#nav-bar {
+  align-self: center;
+}
+a.nav-link {
+  padding: 0.5em;
+  flex-direction: column;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .logo,
+  nav#nav-bar {
+    margin: 0.5em 0 auto;
+  }
+}
 
 /* ==========================================================================
    Helper classes
