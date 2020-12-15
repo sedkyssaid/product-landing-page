@@ -127,6 +127,17 @@ a.nav-link {
 }
 
 /* Features */
+.features__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.feature {
+  text-align: justify;
+}
 
 
 /* Media queries */
@@ -137,6 +148,13 @@ a.nav-link {
   .logo,
   nav#nav-bar {
     margin: 0.5em 0 auto;
+  }
+
+  .feature {
+    text-align: center;
+  }
+  .feature__icon {
+    display: none;
   }
 }
 
