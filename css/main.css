@@ -126,6 +126,9 @@ a.nav-link {
   padding-top: 0.5em;
 }
 
+/* Features */
+
+
 /* Media queries */
 @media (max-width: 600px) {
   header {
