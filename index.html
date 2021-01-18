@@ -31,8 +31,8 @@
       </div>
       <nav id="nav-bar" role="navigation">
         <a class="nav-link" href="#features">Features</a>
-        <a class="nav-link" href="#">How it works</a>
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#how-it-works">How it works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
       </nav>
     </header>
     <section id="hero">
@@ -40,24 +40,74 @@
         <h1 class="hero__title">Fedoras Galore!</h1>
         <img class="hero__img" src="/img/hero-hats.jpg" alt="Hats on shelves">
       </div>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" type="email" placeholder="Enter your email" />
+        <input id="submit" id="submit" type="submit" value="Order Now" />
+      </form>
     </section>
     <section id="features">
       <div class="features__container">
         <div class="feature feature__item">
-          <h2>Premium Materials</h2>
-          <img src="#" type="image/png" class="feature__icon">
-          <p class="feature__text">Our hats are source from premium materials and have quality craftsmanship.</p>
+          <img src="/img/flame-free-icon-fire-icon.png" type="image/png" class="feature__icon">
+          <div class="feature__copy">
+            <h2>Premium Materials</h2>
+            <p class="feature__text">Our hats are source from premium materials and have quality craftsmanship.</p>
+          </div>
         </div>
         <div class="feature feature__item">
-          <h2>Fast Shipping</h2>
-          <img src="#" type="image/png" class="feature__icon feature__fast-shipping--icon">
-          <p class="feature__text">We make sure you receive your hat as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+          <img src="/img/vector-truck-icon.jpg" type="image/png" class="feature__icon feature__fast-shipping--icon">
+          <div class="feature__copy">
+            <h2>Fast Shipping</h2>
+            <p class="feature__text">We make sure you receive your hat as soon as we have finished making it. We also
+              provide free returns if you are not satisfied.</p>
+          </div>
         </div>
         <div class="feature feature__item">
-          <h2>Quality Assurance</h2>
-          <img src="#" type="image/png" class="feature__icon">
-          <p class="feature__text">For every purchase you make, we will ensure there are no stray threads or faults and we will check and test the durability of your hat.</p>
+          <img src="/img/battery.png" type="image/png" class="feature__icon">
+          <div class="feature__copy">
+            <h2>Quality Assurance</h2>
+            <p class="feature__text">For every purchase you make, we will ensure there are no stray threads or faults
+              and
+              we will check and test the durability of your hat.</p>
+          </div>
         </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/awU2CK9LhI8" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="light">
+        <div class="level">Light Fedora</div>
+        <h2>$50</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="medium">
+        <div class="level">Medium Fedora</div>
+        <h2>$75</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="heavy">
+        <div class="level">Heavy Fedora</div>
+        <h2>$100</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
       </div>
     </section>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
